@@ -48,4 +48,4 @@ jobs:
         run : yarn build
         
       - name: deploy on surge
-        run: surge ./build fsvdsfvdfv.surge.sh --token ${{ serets.surge_token }}
+        run: surge ./build fsvdsfvdfv.surge.sh --token ${{ secrets.surge_token }}
