@@ -36,4 +36,4 @@ jobs:
         run: npm install -g surge
         
       - name: deploy on surge
-        run: surge . booota.surge.sh --token ${{serets.surge_token}}
+        run: surge . aaaaaaaaa.surge.sh --token ${{serets.surge_token}}
