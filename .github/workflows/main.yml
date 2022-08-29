@@ -6,9 +6,9 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "main" ]
+    branches: [ "class-1" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "class-1" ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -36,4 +36,4 @@ jobs:
         run: npm install -g surge
         
       - name: deploy on surge
-        run: surge . booota.surge.sh --token "c493058c1e2715b463963d27364f6ee4"
+        run: surge . booota.surge.sh --token ${{serets.surge_token}}
