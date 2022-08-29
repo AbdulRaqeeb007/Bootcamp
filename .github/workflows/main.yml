@@ -33,7 +33,7 @@ jobs:
       - name: action-yarn
         # You may pin to the exact commit or the version.
         # uses: comchangs/action-yarn@e4a1f4800849aa2e73dbc77d872a3c011cdc28d5
-        uses: Borales/action-yarn@v2.1.0
+        uses: mskelton/setup-yarn@v1.2.1
         with:
           cmd: install
 
