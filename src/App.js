@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Hellow Worlds</h1>
+      <h1>Hellow World with react</h1>
     </div>
   );
 }
