@@ -1,10 +1,10 @@
-// import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hellow  with react</h1>
+      <h1>Hello World from all of us!</h1>      
     </div>
   );
 }
