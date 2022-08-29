@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+
+.box{
+  width: 70%;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 10px;
+  border: 5px dotted gray;
+}
+
+.day{
+  background-color: rgb(236, 236, 100);
+  color: black;
+}
+
+.night{
+  background-color: #282c34;
+  color: white;
+}
