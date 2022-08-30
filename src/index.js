@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import counter_context from './component/counter _context';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <counter_context.Provider value={{a:100}}>
     <App />
+    </counter_context.Provider>
   </React.StrictMode>
 );
 
