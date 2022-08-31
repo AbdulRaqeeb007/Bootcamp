@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+.App{
+  width: 400px;
+  min-height: 500px;
+  background-color: rgb(220, 220, 126);
+  margin :0 auto;
+  margin-top:100px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px dotted rgb(151, 83, 83);
+
+}
+h1{
+  margin: 0;
+}
+.data{
+  background-color: rgb(229, 229, 194);
+  padding: 20px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 20px 20px 0px 0px;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.transection{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+background-color: rgb(229, 229, 194);
+ width: 80%;
+ margin: 0 auto;
+ box-shadow:2px 2px black;
+}
+.transection>div{
+  text-align:  center;
+  padding-top: 30px;
+  box-sizing: border-box;
+  height: 120px;
+  background-color: rgb(229, 229, 194);
+}
+.history{
+  padding-top: 10px;
+  font-size: 1.5em;
+  width: 90%;
+  margin: 0 auto;
+}
+input{
+  width: 100%;
+  margin: 0 auto;
+  /* text-align: ; */
+  font-size: 0.6em;
+  padding: 5px;
+  box-sizing: border-box;
+  outline: none;
+  height: 40px;
+  border-radius: 5px;
+
 }
 
-.App-link {
-  color: #61dafb;
+button{
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(146, 158, 196);
+  margin-top: 20px;
+  box-sizing: border-box;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:active{
+  opacity: 0.5;
+}
+
+.show{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(229, 229, 194);
+  border-radius: 5px 0px 5px 0px;
+  margin-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+
 }
